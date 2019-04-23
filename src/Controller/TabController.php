@@ -79,7 +79,10 @@ class TabController extends AppController
             $this->Tab->save($tab);
         $this->set(compact('tab'));
     }
-
+    public function loaded()
+    {
+        
+    }
     /**
      * Edit method
      *
